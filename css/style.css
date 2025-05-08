@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-overall{
+    background-color: gold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1f2937;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.header{
+    width: 80vw;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.logo{
+    font-weight: bold;
+    color: #fff;
+    font-size: 21px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+/* Hero Section */
+
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    padding-top: 50px;
+    gap: 20px;
+}
+
+.hero-text{
+    padding-top: 60px;
+}
+
+.hero-text h1, .hero-text p{
+    color: #fff;
+}
+
+.hero-text p{
+    padding: 20px 0;
+}
+
+.signup{
+    padding: 12px 35px;
+    background: #3882F6;
+    border: 0px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.hero-image img{
+    width: 450px;
+    height: 300px;
+}
+
+
+/* Information */
+.random-info{
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+.random-info h2{
+    text-align: center;
+}
+
+.items-wrap{
+    padding-top: 25px;
+    display: flex;
+    width: 80vw;
+    gap: 35px;
+    justify-content: center;
+}
+
+.items-wrap .text{
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+  }
+
+.items-wrap .item{
+    max-width:200px;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    padding: 70px 15vw;
+}
+
+.main-quote{
+    font-size: 32px;
+    font-weight: light;
+    color: #1F2937;
+}
+
+.founder{
+    text-align: right;
+}
+
+
+/* Call To Action */
+.call-to-action{
+    padding: 80px 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-main{
+    background: #3882F6;
+    width: 80vw;
+    border-radius: 8px;
+    display: flex;
+    padding: 35px 5vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-main .text{
+    color: #fff;
+}
+
+.cta-main .signup.cta{
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+/* Footer */
+.footer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+    background-color: #1f2937;
+    color: #fff;
+}
